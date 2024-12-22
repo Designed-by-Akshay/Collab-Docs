@@ -1,4 +1,7 @@
 {
+  "name": "root",
+  "private": true,
+  "workspaces": ["client", "server"],
   "dependencies": {
     "mongoose": "^8.9.2",
     "react-router-dom": "^7.1.0",
