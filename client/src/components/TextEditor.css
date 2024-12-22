@@ -1,0 +1,19 @@
+.ql-cursor-caret {
+    height: 100%;
+    position: absolute;
+    width: 2px;
+  }
+  
+  .ql-cursor {
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .ql-cursor .ql-cursor-flag {
+    visibility: visible;
+    display: block;
+  }
+  
+  .ql-cursor .ql-cursor-flag .ql-cursor-name {
+    margin-left: 5px;
+  }
